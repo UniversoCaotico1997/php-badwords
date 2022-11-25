@@ -14,11 +14,11 @@
         <form action="greetings.php" method="get">
           <div class="my-3">
             <label for="name" class="form-label">Paragrafo</label>
-            <input type="text" class="form-control" id="name" aria-describedby="paragrafo">
+            <input type="text"  name="name" class="form-control" id="name" aria-describedby="paragrafo">
           </div>
           <div class="mb-3">
             <label for="badword" class="form-label">Parola censurata</label>
-            <input type="text" class="form-control" id="badword">
+            <input type="text" name="badWord" class="form-control" id="badword">
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
