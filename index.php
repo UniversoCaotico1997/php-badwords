@@ -11,14 +11,14 @@
     
 
     <div class="container">
-        <form>
+        <form action="greetings.php" method="get">
           <div class="my-3">
-            <label for="exampleInputEmail1" class="form-label">Paragrafo</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="name" class="form-label">Paragrafo</label>
+            <input type="text" class="form-control" id="name" aria-describedby="paragrafo">
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Parola censurata</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <label for="badword" class="form-label">Parola censurata</label>
+            <input type="text" class="form-control" id="badword">
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
